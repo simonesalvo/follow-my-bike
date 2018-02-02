@@ -1,0 +1,14 @@
+<form [formGroup]="languageForm">
+  <div class="field">
+    <div class="control has-icons-left">
+      <div class="select">
+        <select formControlName="language">
+          <option *ngFor="let item of languageValue" [value]="item.value">{{ item.name }}</option>
+        </select>
+      </div>
+      <div class="icon is-small is-left">
+        <i class="fa fa-language"></i>
+      </div>
+    </div>
+  </div>
+</form>

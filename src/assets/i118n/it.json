@@ -1,0 +1,17 @@
+{
+    "HEADER": {
+        "HOME": "HOME",
+        "INSERT": "INSERISCI",
+        "VIEW": "MOSTRA"
+    },
+    "INSERT": {
+        "TITLE": "Inserisci la tua tappa",
+        "STAGE": "Tappa",
+        "DATE": "Data",
+        "COMMENT": "Commento"
+    },
+    "MESSAGGE":{
+        "TEXT":"I dati saranno salvati tra: ",
+        "CANCEL": "Annulla"
+    }
+}

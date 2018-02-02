@@ -1,0 +1,37 @@
+<div id="morph-how-to-start" class="column has-text-centered">
+  <h1 class="title is-1 is-size-2-mobile">
+   {{ 'INSERT.TITLE' | translate }}
+  </h1>
+</div>
+<app-message *ngIf="submitValueValid" (result)="getResult($event)"></app-message>
+<div class="column is-6 is-offset-3">
+  <div class="card">
+    <div class="card-content">
+        <form [formGroup]="cycleRaceForm" novalidate>
+          <div class="field">
+            <label class="label">{{ 'INSERT.STAGE' | translate }}</label>
+            <div class="control has-icons-right">
+              <input class="input is-success" type="text" formControlName="stage"
+                placeholder="{{ 'INSERT.STAGE' | translate }}" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">{{ 'INSERT.DATE' | translate }}</label>
+            <div class="control">
+              <input class="input is-success" type="date" formControlName="date" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">{{ 'INSERT.COMMENT' | translate }}</label>
+            <div class="control">
+              <textarea class="textarea" formControlName="comment" placeholder="{{ 'INSERT.COMMENT' | translate }}"></textarea>
+            </div>
+          </div>
+
+        </form>
+
+    </div>
+  </div>
+</div>

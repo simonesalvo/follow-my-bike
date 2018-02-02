@@ -1,0 +1,17 @@
+{
+    "HEADER": {
+        "HOME": "HOME",
+        "INSERT": "INSERT",
+        "VIEW": "VIEW"
+    },
+    "INSERT":{
+        "TITLE":"INSERT YOUR STAGE",
+        "STAGE": "Stage",
+        "DATE": "Date",
+        "COMMENT": "Comment"
+    },
+    "MESSAGGE":{
+        "TEXT":"The datas will be saved between: ",
+        "CANCEL": "Cancel"
+    }
+}

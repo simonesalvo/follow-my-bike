@@ -1,0 +1,7 @@
+ #home-it{
+    width: 5%;
+    position:fixed;
+    top: 85%;
+    right: 1%;
+    z-index:0;
+}

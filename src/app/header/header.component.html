@@ -1,0 +1,20 @@
+<nav class="hero-foot" aria-label="breadcrumbs">
+  <div class="container">
+    <div class="tabs is-boxed">
+      <ul>
+        <li>
+          <a href="#home" (click)="onClickHome()">{{ 'HEADER.HOME' | translate }}</a>
+        </li>
+        <li>
+          <a href="#insert" (click)="onClickInsert()">{{ 'HEADER.INSERT' | translate }}</a>
+        </li>
+        <li>
+          <a href="#view" (click)="onClickView()">{{ 'HEADER.VIEW' | translate }}</a>
+        </li>
+      </ul>
+
+      <app-form-language></app-form-language>
+
+    </div>
+  </div>
+</nav>
